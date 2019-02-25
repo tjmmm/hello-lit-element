@@ -18,5 +18,8 @@ module.exports = {
       filename: 'index.html',
       template: 'src/index.html'
     })
-  ]
+  ],
+  devServer: {
+    host: process.env.WEBPACK_HOST
+  }
 };
